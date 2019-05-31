@@ -1,0 +1,37 @@
+{
+    "workbench.colorTheme": "Default Light+",
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "workbench.iconTheme": "simple-icons",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "workbench.colorCustomizations": {},
+    "gitlens.codeLens.scopes": [
+        "document",
+        "containers"
+    ],
+    "files.exclude": {
+        "**/.git": true,
+        "**/*.o": true,
+        "**/*.lo": true
+    },
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "window.titleBarStyle": "custom",
+    "lldb.executable": "lldb-6.0",
+    "git.enableSmartCommit": true,
+    "gitlens.codeLens.enabled": false,
+    "gitlens.views.fileHistory.enabled": true,
+    "gitlens.views.lineHistory.enabled": true,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "cmake.configureOnOpen": false,
+    "breadcrumbs.enabled": true,
+    "window.zoomLevel": 0,
+    "C_Cpp.updateChannel": "Insiders",
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+}
