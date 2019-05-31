@@ -1,0 +1,13 @@
+[alias]
+	l = log --graph --pretty=format:\"%C(auto)%h%<(3)%d %s %C(bold blue)(%cr, %an)%Creset\" --abbrev-commit --all
+	ls = log --graph --pretty=format:\"%C(auto)%h%<(3)%d %s %C(bold blue)(%cr, %an)%Creset%n\" --abbrev-commit --all --find-copies -M --stat
+[push]
+	default = simple
+[user]
+	email = martin.ankerl@gmail.com
+	name = Martin Ankerl
+[core]
+	editor = vim
+        excludesfile = /home/martinus/.gitignore_global	
+[credential]
+	helper = cache --timeout=31536000
