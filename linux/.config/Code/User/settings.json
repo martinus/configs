@@ -34,4 +34,8 @@
     "[cpp]": {
         "editor.defaultFormatter": "xaver.clang-format"
     },
+    "workbench.colorCustomizations" : {
+        "terminal.foreground" : "#ffffff",
+        "terminal.background" : "#222D32"
+    },    
 }
